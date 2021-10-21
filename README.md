@@ -1,3 +1,4 @@
+作者：冯炜  联系电话： 19907131722
 # shortdns
   编译后取启动类jar包即可命令行启动
  ## 启动命令：java -jar -Xms2048M -Xmx2048M -Xmn512M -Xss256k -XX:PermSize=512M short-dns-demo-starter-0.0.1-SNAPSHOT.jar --spring.profiles.active=dev
