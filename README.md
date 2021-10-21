@@ -1,5 +1,9 @@
 # shortdns
-
+  编译后取启动类jar包即可命令行启动
+ ## 启动命令：java -jar -Xms2048M -Xmx2048M -Xmn512M -Xss256k -XX:PermSize=512M short-dns-demo-starter-0.0.1-SNAPSHOT.jar --spring.profiles.active=dev
+ ## swagger地址： http://localhost:8080/shortdns/swagger-ui.html#/short45dns45controller
+ <br>
+ 
 # 功能描述
   ##  功能：实现长短域名存储、读取服务
     1. 功能要求: 
