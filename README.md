@@ -38,6 +38,12 @@
     2. 采用基于springboot框架实现，代码目录结构如图所示：
 
 ![ml](https://user-images.githubusercontent.com/91041551/138206272-006ca2d8-ad2e-4a01-b188-03530ad10dff.png)
+    
+    short-dns-demo-starter 主启动服务
+    short-dns-adapter-rest 网关restful适配层
+    short-dns-app 应用服务层
+    short-dns-domian 业务功能服务层
+    short-dns-adapter-memory 基础设施层-内存适配
    
     3. 数据请求路径是通过restful请求方式，通过网关适配器-->应用服务层-->业务功能层--->基础设施层
      
